@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Calibri;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+#main-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.circle-body {
+    display: inline-block;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #444444;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+.btn-wrapper button {
+    height: 40px;
+    width: 80px;
+    border-radius: 4px;
+    font-family: Calibri;
+    font-size: 20px;
+    color: white;
+    background: gray;
+    outline: none;
+    border: none;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-wrapper button:hover {
+    background: dodgerblue;
+    box-shadow: 0 0 5px 0 rgba(176,176,176,1);
+}
+
+.btn-wrapper button:active {
+    background: darkcyan;
+}
